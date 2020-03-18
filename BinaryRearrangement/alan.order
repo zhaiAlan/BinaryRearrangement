@@ -1,0 +1,4 @@
++[ViewController load]
++[AppDelegate load]
+_main
+-[AppDelegate application:didFinishLaunchingWithOptions:]

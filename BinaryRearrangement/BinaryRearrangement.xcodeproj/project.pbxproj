@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7416AD42421CBBD00D5D51B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7416AD32421CBBD00D5D51B /* AppDelegate.m */; };
+		E7416AD72421CBBD00D5D51B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7416AD62421CBBD00D5D51B /* ViewController.m */; };
+		E7416ADA2421CBBD00D5D51B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7416AD82421CBBD00D5D51B /* Main.storyboard */; };
+		E7416ADC2421CBC100D5D51B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7416ADB2421CBC100D5D51B /* Assets.xcassets */; };
+		E7416ADF2421CBC100D5D51B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7416ADD2421CBC100D5D51B /* LaunchScreen.storyboard */; };
+		E7416AE22421CBC100D5D51B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7416AE12421CBC100D5D51B /* main.m */; };
+		E7416AEC2421CBC100D5D51B /* BinaryRearrangementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7416AEB2421CBC100D5D51B /* BinaryRearrangementTests.m */; };
+		E7416AF72421CBC200D5D51B /* BinaryRearrangementUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7416AF62421CBC200D5D51B /* BinaryRearrangementUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7416AE82421CBC100D5D51B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7416AC72421CBBD00D5D51B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7416ACE2421CBBD00D5D51B;
+			remoteInfo = BinaryRearrangement;
+		};
+		E7416AF32421CBC200D5D51B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7416AC72421CBBD00D5D51B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7416ACE2421CBBD00D5D51B;
+			remoteInfo = BinaryRearrangement;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E7416ACF2421CBBD00D5D51B /* BinaryRearrangement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BinaryRearrangement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7416AD22421CBBD00D5D51B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E7416AD32421CBBD00D5D51B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E7416AD52421CBBD00D5D51B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E7416AD62421CBBD00D5D51B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E7416AD92421CBBD00D5D51B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7416ADB2421CBC100D5D51B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7416ADE2421CBC100D5D51B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7416AE02421CBC100D5D51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7416AE12421CBC100D5D51B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7416AE72421CBC100D5D51B /* BinaryRearrangementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinaryRearrangementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7416AEB2421CBC100D5D51B /* BinaryRearrangementTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinaryRearrangementTests.m; sourceTree = "<group>"; };
+		E7416AED2421CBC200D5D51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7416AF22421CBC200D5D51B /* BinaryRearrangementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinaryRearrangementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7416AF62421CBC200D5D51B /* BinaryRearrangementUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinaryRearrangementUITests.m; sourceTree = "<group>"; };
+		E7416AF82421CBC200D5D51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7416ACC2421CBBD00D5D51B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7416AE42421CBC100D5D51B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7416AEF2421CBC200D5D51B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7416AC62421CBBD00D5D51B = {
+			isa = PBXGroup;
+			children = (
+				E7416AD12421CBBD00D5D51B /* BinaryRearrangement */,
+				E7416AEA2421CBC100D5D51B /* BinaryRearrangementTests */,
+				E7416AF52421CBC200D5D51B /* BinaryRearrangementUITests */,
+				E7416AD02421CBBD00D5D51B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7416AD02421CBBD00D5D51B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7416ACF2421CBBD00D5D51B /* BinaryRearrangement.app */,
+				E7416AE72421CBC100D5D51B /* BinaryRearrangementTests.xctest */,
+				E7416AF22421CBC200D5D51B /* BinaryRearrangementUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7416AD12421CBBD00D5D51B /* BinaryRearrangement */ = {
+			isa = PBXGroup;
+			children = (
+				E7416AD22421CBBD00D5D51B /* AppDelegate.h */,
+				E7416AD32421CBBD00D5D51B /* AppDelegate.m */,
+				E7416AD52421CBBD00D5D51B /* ViewController.h */,
+				E7416AD62421CBBD00D5D51B /* ViewController.m */,
+				E7416AD82421CBBD00D5D51B /* Main.storyboard */,
+				E7416ADB2421CBC100D5D51B /* Assets.xcassets */,
+				E7416ADD2421CBC100D5D51B /* LaunchScreen.storyboard */,
+				E7416AE02421CBC100D5D51B /* Info.plist */,
+				E7416AE12421CBC100D5D51B /* main.m */,
+			);
+			path = BinaryRearrangement;
+			sourceTree = "<group>";
+		};
+		E7416AEA2421CBC100D5D51B /* BinaryRearrangementTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7416AEB2421CBC100D5D51B /* BinaryRearrangementTests.m */,
+				E7416AED2421CBC200D5D51B /* Info.plist */,
+			);
+			path = BinaryRearrangementTests;
+			sourceTree = "<group>";
+		};
+		E7416AF52421CBC200D5D51B /* BinaryRearrangementUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E7416AF62421CBC200D5D51B /* BinaryRearrangementUITests.m */,
+				E7416AF82421CBC200D5D51B /* Info.plist */,
+			);
+			path = BinaryRearrangementUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7416ACE2421CBBD00D5D51B /* BinaryRearrangement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7416AFB2421CBC200D5D51B /* Build configuration list for PBXNativeTarget "BinaryRearrangement" */;
+			buildPhases = (
+				E7416ACB2421CBBD00D5D51B /* Sources */,
+				E7416ACC2421CBBD00D5D51B /* Frameworks */,
+				E7416ACD2421CBBD00D5D51B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BinaryRearrangement;
+			productName = BinaryRearrangement;
+			productReference = E7416ACF2421CBBD00D5D51B /* BinaryRearrangement.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7416AE62421CBC100D5D51B /* BinaryRearrangementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7416AFE2421CBC200D5D51B /* Build configuration list for PBXNativeTarget "BinaryRearrangementTests" */;
+			buildPhases = (
+				E7416AE32421CBC100D5D51B /* Sources */,
+				E7416AE42421CBC100D5D51B /* Frameworks */,
+				E7416AE52421CBC100D5D51B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7416AE92421CBC100D5D51B /* PBXTargetDependency */,
+			);
+			name = BinaryRearrangementTests;
+			productName = BinaryRearrangementTests;
+			productReference = E7416AE72421CBC100D5D51B /* BinaryRearrangementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E7416AF12421CBC200D5D51B /* BinaryRearrangementUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7416B012421CBC200D5D51B /* Build configuration list for PBXNativeTarget "BinaryRearrangementUITests" */;
+			buildPhases = (
+				E7416AEE2421CBC200D5D51B /* Sources */,
+				E7416AEF2421CBC200D5D51B /* Frameworks */,
+				E7416AF02421CBC200D5D51B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7416AF42421CBC200D5D51B /* PBXTargetDependency */,
+			);
+			name = BinaryRearrangementUITests;
+			productName = BinaryRearrangementUITests;
+			productReference = E7416AF22421CBC200D5D51B /* BinaryRearrangementUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7416AC72421CBBD00D5D51B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = zhaixingzhi;
+				TargetAttributes = {
+					E7416ACE2421CBBD00D5D51B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					E7416AE62421CBC100D5D51B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = E7416ACE2421CBBD00D5D51B;
+					};
+					E7416AF12421CBC200D5D51B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = E7416ACE2421CBBD00D5D51B;
+					};
+				};
+			};
+			buildConfigurationList = E7416ACA2421CBBD00D5D51B /* Build configuration list for PBXProject "BinaryRearrangement" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7416AC62421CBBD00D5D51B;
+			productRefGroup = E7416AD02421CBBD00D5D51B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7416ACE2421CBBD00D5D51B /* BinaryRearrangement */,
+				E7416AE62421CBC100D5D51B /* BinaryRearrangementTests */,
+				E7416AF12421CBC200D5D51B /* BinaryRearrangementUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7416ACD2421CBBD00D5D51B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7416ADF2421CBC100D5D51B /* LaunchScreen.storyboard in Resources */,
+				E7416ADC2421CBC100D5D51B /* Assets.xcassets in Resources */,
+				E7416ADA2421CBBD00D5D51B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7416AE52421CBC100D5D51B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7416AF02421CBC200D5D51B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7416ACB2421CBBD00D5D51B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7416AD72421CBBD00D5D51B /* ViewController.m in Sources */,
+				E7416AE22421CBC100D5D51B /* main.m in Sources */,
+				E7416AD42421CBBD00D5D51B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7416AE32421CBC100D5D51B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7416AEC2421CBC100D5D51B /* BinaryRearrangementTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7416AEE2421CBC200D5D51B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7416AF72421CBC200D5D51B /* BinaryRearrangementUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7416AE92421CBC100D5D51B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7416ACE2421CBBD00D5D51B /* BinaryRearrangement */;
+			targetProxy = E7416AE82421CBC100D5D51B /* PBXContainerItemProxy */;
+		};
+		E7416AF42421CBC200D5D51B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7416ACE2421CBBD00D5D51B /* BinaryRearrangement */;
+			targetProxy = E7416AF32421CBC200D5D51B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7416AD82421CBBD00D5D51B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7416AD92421CBBD00D5D51B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7416ADD2421CBC100D5D51B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7416ADE2421CBC100D5D51B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7416AF92421CBC200D5D51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E7416AFA2421CBC200D5D51B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7416AFC2421CBC200D5D51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22XQSQW7E7;
+				INFOPLIST_FILE = BinaryRearrangement/Info.plist;
+				LD_GENERATE_MAP_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ORDER_FILE = ./alan.order;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alan.BinaryRearrangement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7416AFD2421CBC200D5D51B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22XQSQW7E7;
+				INFOPLIST_FILE = BinaryRearrangement/Info.plist;
+				LD_GENERATE_MAP_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ORDER_FILE = ./alan.order;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alan.BinaryRearrangement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E7416AFF2421CBC200D5D51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22XQSQW7E7;
+				INFOPLIST_FILE = BinaryRearrangementTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alan.BinaryRearrangementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BinaryRearrangement.app/BinaryRearrangement";
+			};
+			name = Debug;
+		};
+		E7416B002421CBC200D5D51B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22XQSQW7E7;
+				INFOPLIST_FILE = BinaryRearrangementTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alan.BinaryRearrangementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BinaryRearrangement.app/BinaryRearrangement";
+			};
+			name = Release;
+		};
+		E7416B022421CBC200D5D51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22XQSQW7E7;
+				INFOPLIST_FILE = BinaryRearrangementUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alan.BinaryRearrangementUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BinaryRearrangement;
+			};
+			name = Debug;
+		};
+		E7416B032421CBC200D5D51B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22XQSQW7E7;
+				INFOPLIST_FILE = BinaryRearrangementUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alan.BinaryRearrangementUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BinaryRearrangement;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7416ACA2421CBBD00D5D51B /* Build configuration list for PBXProject "BinaryRearrangement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7416AF92421CBC200D5D51B /* Debug */,
+				E7416AFA2421CBC200D5D51B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7416AFB2421CBC200D5D51B /* Build configuration list for PBXNativeTarget "BinaryRearrangement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7416AFC2421CBC200D5D51B /* Debug */,
+				E7416AFD2421CBC200D5D51B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7416AFE2421CBC200D5D51B /* Build configuration list for PBXNativeTarget "BinaryRearrangementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7416AFF2421CBC200D5D51B /* Debug */,
+				E7416B002421CBC200D5D51B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7416B012421CBC200D5D51B /* Build configuration list for PBXNativeTarget "BinaryRearrangementUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7416B022421CBC200D5D51B /* Debug */,
+				E7416B032421CBC200D5D51B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7416AC72421CBBD00D5D51B /* Project object */;
+}
